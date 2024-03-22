@@ -11,6 +11,8 @@ public class Main {
                 System.out.println("Introduce los números");
                 numeros[i][columna] = sc.nextInt();
             }
+            //En un for, se inicializa una variable, esa que después dentro de él se iterará
+            //será después lo que le diga hasta cuando se ejecutará
         }
     }
 
