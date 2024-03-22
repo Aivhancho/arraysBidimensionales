@@ -7,9 +7,9 @@ public class Main {
         //int edades[][] = {{1,3,4},{1,2,5}};
         for(int i=0; i < 5; i++){//eje X
             //se repetirá el for de debajo hasta que el eje X sea 4
-            for(int j=0; j < 4; j++){//eje Y
+            for(int columna=0; columna < 4; columna++){//eje Y
                 System.out.println("Introduce los números");
-                numeros[i][j] = sc.nextInt();
+                numeros[i][columna] = sc.nextInt();
             }
         }
     }
